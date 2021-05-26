@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-------------------- Sections General--------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -333,65 +333,16 @@ section {
 
 .img-fluid{
   box-shadow: 2px 4px 6px black;
+  width: 90%;
 }
 
-.about .img-fluid-effect:hover .img-fluid:hover {
-  filter: blur(1px) drop-shadow(2px 4px 6px black);
+img.img-fluid:hover {
+  filter: contrast(0.9);
 }
 
 /*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------
-.facts {
-  padding-bottom: 30px;
-}
-
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-
-.facts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
-}
-
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #122f57;
-}
-
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.facts .count-box a:hover {
-  color: #1f5297;
-}
-
-/--------------------------------------------------------------
 # Skills
---------------------------------------------------------------/
+--------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
   display: block;
@@ -424,7 +375,7 @@ section {
   background-color: #149ddd;
 }
 
-/--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------/
 .resume .resume-title {
