@@ -274,7 +274,7 @@ section {
 }
 
 .section-bg {
-  background: #ffffac;
+  background: #ffffe86b
 }
 
 .section-title {
@@ -364,16 +364,7 @@ img.img-fluid:hover {
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-}
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #149ddd;
-}
 
 /*--------------------------------------------------------------
 # Resume
